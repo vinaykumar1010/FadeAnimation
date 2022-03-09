@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<alpha
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:duration = "3000"
+    android:toAlpha="1.0"
+    android:fromAlpha="0.0" />
+</set>
+<!--from is  the  value 0  means fully invisible and goes till 1 which means  visible  ,
+duration is in milliseconds
+interpolarater is just one type of  animation it can b changed-->
